@@ -1,0 +1,28 @@
+git clone http://github.com/raywenderlich/rwtodos
+Or fork Project
+
+Initial local github folder:
+mkdir [folder]
+git init
+
+Create vim file:
+vim [filename]
+:x <-save&back
+
+Add file to track:
+git add [filename]
+git add . <-modified files in this folder
+git add --all <-modified files in project
+
+Commit track:
+git commit
+and write commit message:
+format:
+[Title
+
+Detail.Detail.....]
+:x
+
+show commit log:
+git log
+
